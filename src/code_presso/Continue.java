@@ -1,4 +1,4 @@
 package code_presso;
 
-public class iflong {
+public class Continue {
 }

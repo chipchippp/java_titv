@@ -18,5 +18,14 @@ public class IfElseIf {
         } else {
             System.out.println("F");
         }
+
+
+        int disabilityGrade = 6;
+        boolean isCompactCar = false;
+
+        String discountTicket = "";
+        String discountParking = "";
+
+
     }
 }
