@@ -26,7 +26,7 @@ public class While {
                 isWifiOn = true;
             }
             if (batteryCapacity < 100){
-                batteryCapacity += 4;
+                batteryCapacity += 25;
                 System.out.println("Battery : " +batteryCapacity);
             }
             System.out.println();
