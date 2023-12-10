@@ -2,6 +2,30 @@ package java_30;
 
 public class MyDate {
     private int day, month,year;
+    private String days;
+    private String model;
+    private double price;
+
+    public String getModel() {
+        return model;
+    }
+
+    public void setModel(String model) {
+        this.model = model;
+    }
+
+    public double getPrice() {
+        return price;
+    }
+
+    public void setPrice(double price) {
+        this.price = price;
+    }
+
+    public MyDate(String model, double price) {
+        this.model = model;
+        this.price = price;
+    }
 
     public MyDate(int day, int month, int year) {
         this.day = day;
