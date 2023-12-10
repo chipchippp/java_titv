@@ -1,9 +1,9 @@
 package inheritance;
 
 public class User {
-    public String name;
-    public String email;
-    public String password;
+    protected String name;
+    protected String email;
+    protected String password;
 
     public void login(){
         System.out.println("hello " + this.name + "!");
