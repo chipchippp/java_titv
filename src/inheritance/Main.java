@@ -7,7 +7,7 @@ public class Main {
 //       EnterpriseUser steve = new EnterpriseUser("steve","steve@gmail.com","1234","Java");
 //       steve.printEnterpriseUserInfo();
 
-        EnterpriseUser grace = new EnterpriseUser(200, 100);
-        grace.printTemporaryValues();
+//        EnterpriseUser grace = new EnterpriseUser(200, 100);
+//        grace.printTemporaryValues();
     }
 }
