@@ -1,6 +1,5 @@
 package daHinh;
 
-import overriding.User;
 
 public class PaidUser extends User {
         public String membership;

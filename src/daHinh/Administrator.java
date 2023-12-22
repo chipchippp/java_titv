@@ -1,6 +1,5 @@
 package daHinh;
 
-import overriding.User;
 
 public class Administrator extends User {
     private String adminLevel;

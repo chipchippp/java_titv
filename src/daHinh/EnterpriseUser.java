@@ -1,6 +1,5 @@
 package daHinh;
 
-import overriding.User;
 
 public class EnterpriseUser extends User {
     private String company;
