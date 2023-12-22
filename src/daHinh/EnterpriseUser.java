@@ -12,4 +12,7 @@ public class EnterpriseUser extends User {
         System.out.println("hello " + this.name + "!");
         System.out.println("Enter " + this.company + " Enterprise");
     }
+    public void enterPage(){
+        System.out.println("Enter Page! " + this.company);
+    }
 }

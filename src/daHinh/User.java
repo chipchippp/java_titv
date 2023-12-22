@@ -15,5 +15,7 @@ package daHinh;
             System.out.println("hello " + this.name + "!");
             System.out.println("login success");
         }
+        public void enterPage(){
+            System.out.println("Enter Page! " + this.name);
+        }
     }
-

@@ -4,15 +4,18 @@ package daHinh;
 
 public class Main {
     public static void main(String[] args) {
-        User user = new User("User","user@gmail.com","0000");
-        user.login();
+        LoginManager loginManager = new LoginManager();
 
-        user = new PaidUser("Paid","paid@gmail.com","1111","Pro");
-        user.login();
-        user = new EnterpriseUser("Enterprise","enterprise@gmail.com","2222","Vip");
-        user.login();
+        PaidUser paid = new PaidUser("Paid","paid@gmail.com","1111","Pro");
+        loginManager.processLogin(paid);
 
-        user = new Administrator("Admin","admin@gmail.com","3333","Svip");
-        user.login();
+        EnterpriseUser enterprise = new EnterpriseUser("Enterprise","enterprise@gmail.com","2222","Vip");
+        loginManager.processLogin(enterprise);
+
+        Administrator admin = new Administrator("Admin","admin@gmail.com","3333","Svip");
+        loginManager.processLogin(admin);
+
+
+
     }
 }

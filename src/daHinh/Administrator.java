@@ -2,7 +2,7 @@ package daHinh;
 
 
 public class Administrator extends User {
-    private String adminLevel;
+    private final String adminLevel;
 
     public Administrator(String name, String email, String password, String adminLevel) {
         super(name, email, password);
@@ -11,5 +11,9 @@ public class Administrator extends User {
     public void login(){
         System.out.println("hello " + this.name + "!");
         System.out.println("Enter " + this.adminLevel + " Admin");
+    }
+
+    public void enterPage(){
+        System.out.println("Enter Page " + this.adminLevel);
     }
 }
