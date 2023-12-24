@@ -13,7 +13,10 @@ public class Main {
         user = new EnterpriseUser("Enterprise","enterprise@gmail.com","2222","Vip");
         loginManager.processLogin(user);
 
-        user = new Administrator("Admin","admin@gmail.com","3333","Svip");
+        user = new Administrator("Admin","admin@gmail.com","3333","SVip");
+        loginManager.processLogin(user);
+
+        user = new UniversityUser("Uni","uni@gmail.com","4444","Vip Pro");
         loginManager.processLogin(user);
 
 
