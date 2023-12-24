@@ -1,4 +1,4 @@
-package Java_26;
+package java_26;
 
 public class BreakContinue {
     //	public static void main(String[] args) {
