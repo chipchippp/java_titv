@@ -1,6 +1,10 @@
 package java_69;
 
 import java.io.File;
+import java.io.IOException;
+import java.nio.file.FileSystem;
+import java.nio.file.Files;
+import java.nio.file.Path;
 
 public class Main {
     public static void main(String[] args) {
@@ -17,5 +21,19 @@ public class Main {
 		ViDuXoaFile.xoaFile(f0);
 		*/
 
+        // su dung class file xoa tap tin va thu muc
+
+        Path p_vidu = f_vidu.toPath();
+        Path p0 = f0.toPath();
+        Path p0_1 = f0_1.toPath();
+
+        try {
+            //Files.deleteIfExists(p0);
+            Files.deleteIfExists(p0_1);
+            Files.deleteIfExists(p_vidu);
+        } catch (IOException e) {
+            // TODO Auto-generated catch block
+            e.printStackTrace();
+        }
     }
 }
